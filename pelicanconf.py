@@ -3,9 +3,10 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Quality Software'
-SITENAME = 'Examples first'
+SITENAME = 'How-to Snippets'
 SITEURL = 'http://localhost:8000/'
 AUTHORURL = 'http://quasoft.net/'
+HOMEPAGEBTN = 'Start'
 
 PATH = 'content'
 
@@ -21,6 +22,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+STATIC_PATHS = ['images']
+DISPLAY_PAGES_ON_MENU = True
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
