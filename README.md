@@ -1,5 +1,5 @@
-How-to blog prototype for Examples First Series
-===============================================
+How-to blog with snippets
+=========================
 
 Under construction...
 ---------------------
