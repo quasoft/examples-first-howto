@@ -1,7 +1,7 @@
 Title: Install Open Trip Planner 0.18.x under Debian 7.6
 Date: 2016-01-16 12:45
 Category: Java
-Tags: open trip planner, java, debian
+Tags: open trip planner, gtfs, java, debian
 
 First, [install java 1.8.0/8.0 under Debian 7]({filename}../install-oracle-java-1-8-in-debian.md).
 (If using older version of Open Trip Planner like 0.11.x, you will need Java 1.7/7.0 instead)

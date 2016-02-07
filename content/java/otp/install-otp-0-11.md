@@ -1,7 +1,7 @@
 Title: Install Open Trip Planner 0.11.x under Debian 7.4
 Date: 2016-01-16 12:15
 Category: Java
-Tags: open trip planner, java, debian
+Tags: open trip planner, gtfs, java, debian
 
 First, install Git, Java 1.7 and Maven:
 
