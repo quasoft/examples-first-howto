@@ -1,0 +1,5 @@
+Create new git branch from specific commit (command hash):
+
+```bash
+git branch newbranchname hashofcommit
+```
