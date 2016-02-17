@@ -1,3 +1,7 @@
+Title: Get hash of last commit command
+Date: 2016-02-17 08:00
+Category: Git
+Tags: git, commit, hash
 
 Get hash of last commit command:
 
