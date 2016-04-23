@@ -2,8 +2,8 @@ from fabric.api import *
 import fabric.contrib.project as project
 import os
 import sys
-import SimpleHTTPServer
-import SocketServer
+import http.server
+import socketserver
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
@@ -39,10 +39,10 @@ def serve():
     os.chdir(env.deploy_path)
 
     PORT = 8000
-    class AddressReuseTCPServer(SocketServer.TCPServer):
+    class AddressReuseTCPServer(socketserver.TCPServer):
         allow_reuse_address = True
 
-    server = AddressReuseTCPServer(('', PORT), SimpleHTTPServer.SimpleHTTPRequestHandler)
+    server = AddressReuseTCPServer(('', PORT), http.server.SimpleHTTPRequestHandler)
 
     sys.stderr.write('Serving on port {0} ...\n'.format(PORT))
     server.serve_forever()
