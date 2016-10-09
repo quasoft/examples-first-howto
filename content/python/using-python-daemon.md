@@ -11,6 +11,7 @@ pip install python-daemon
 ```
 
 Example:
+--------
 
 ```python
 #!/usr/bin/env python3
