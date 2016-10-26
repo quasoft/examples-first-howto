@@ -1,4 +1,4 @@
-Title: Using GStreamer with playbin and audio filter as internet radio player
+Title: Using GStreamer with uridecodebin and audio filter as internet radio player
 Date: 2016-10-09 08:51
 Category: Python
 Tags: python, gstreamer, audio, radio, player, media, streaming, uridecodebin
